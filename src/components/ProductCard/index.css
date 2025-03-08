@@ -1,10 +1,8 @@
 /* TODO: Add your CSS here */
 
-.link-product-item{
+.link-product-item {
   text-decoration: none;
-
-
-} 
+}
 .product-item {
   display: flex;
   flex-direction: column;
