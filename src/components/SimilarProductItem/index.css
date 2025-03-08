@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.each-product-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+  width: 200px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .each-product-item {
+    width: 200px;
+    margin-right: 40px;
+  }
+}
+
+.each-thumbnail {
+  width: 100%;
+  max-height: 350px;
+  border-radius: 6px;
+}
+
+.each-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.each-brand {
+  color: #594d6d;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.each-product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 2px;
+}
+
+.each-price {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.each-rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+
+.each-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.each-star {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+}
