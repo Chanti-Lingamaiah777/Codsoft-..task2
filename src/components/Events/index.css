@@ -1,0 +1,160 @@
+.events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.events-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  width: 90%;
+  max-width: 1100px;
+}
+.events-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 450;
+
+  color: #1e293b;
+  text-align: center;
+}
+.community-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .community-list {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+.deatails-container {
+  width: 90%;
+  background-color: #bdc3a3;
+  border-radius: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 16px 0px #bdc3a3;
+  max-width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .deatails-container {
+    max-width: 400px;
+  }
+}
+.details-inner-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.form-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+  color: #418ad8;
+  text-align: left;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+
+  align-self: center;
+  flex-shrink: 1;
+  width: 95%;
+}
+
+.community-image-container {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+.cover-image {
+  color: #878d6e;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.file-uploader {
+  display: none;
+}
+.upload-image {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6fae8;
+  border: 1px dashed #878d6e;
+  border-radius: 7px;
+  align-self: center;
+}
+.uploaded-img {
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+}
+.community-name-container {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.community-name-input {
+  color: #878d6e;
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.name-input {
+  color: #a4a891;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 8px 20px 10px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  align-self: center;
+  width: 100%;
+}
+.description-input {
+  color: #a4a891;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+.create-community-btn {
+  background-color: #2488da;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  padding: 8px 20px;
+  width: 100%;
+  align-self: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
