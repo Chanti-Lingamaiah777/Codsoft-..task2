@@ -19,7 +19,7 @@
     "react-icons": "4.2.0",
     "react-loader-spinner": "4.0.0",
     "react-router-dom": "5.2.0",
-    "uuid": "11.1.0"
+    "uuid": "8.3.2"
   },
   "devDependencies": {
     "eslint-config-airbnb": "18.2.1",
